@@ -45,7 +45,7 @@ function generatePassword(lower, upper, number, symbol, length) {
 	
 	// Doesn't have a selected type
 	if(typesCount === 0) {
-		return 'Select atleast 1 option';
+		return 'Please Select Atleast 1 Setting';
 	}
 	
 	// create a loop
