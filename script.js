@@ -47,6 +47,7 @@ function generatePassword(lower, upper, number, symbol, length) {
 	if(typesCount === 0) {
 		return 'Please Select Atleast 1 Setting';
 	}
+
 	
 	// create a loop
 	for(let i=0; i<length; i+=typesCount) {
@@ -56,8 +57,8 @@ function generatePassword(lower, upper, number, symbol, length) {
 		});
 	}
 	
-	const finalPassword = generatedPassword.slice(0, length);
 	
+	const finalPassword = generatedPassword.slice(0, length);
 	return finalPassword;
 }
 
