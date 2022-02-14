@@ -78,3 +78,7 @@ function getRandomSymbol() {
 	const symbols = '!@#$%^&*(){}[]=<>/,.'
 	return symbols[Math.floor(Math.random() * symbols.length)];
 }
+
+document.getElementById("remove").onclick = function() {
+    document.getElementById("message").remove();
+}
