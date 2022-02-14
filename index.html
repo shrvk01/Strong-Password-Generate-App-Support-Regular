@@ -4,45 +4,54 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Safe&Secure Password Generator</title>
+    <title>Strong Password Generate</title>
     
     <link rel="stylesheet" href="styles.css">
     <script src="script.js" defer></script>
 </head>
 <body>
-<div class="container">
-        <h1>Strong Password Generate</h1>
-        <div class="result-container">
-            <span id="result"></span>
-            <button class="btn" id="clipboard">
-               Copy</i>
-            </button>
-        </div>
-        <div class="settings">
-            <div class="setting">
-                <label>Password Length </label>
-                <input type="number" id="length" min='4' max='20' value='1' />
-            </div>
-            <div class="setting">
-                <label>Include Uppercase Letters</label>
-                <input type="checkbox" id="uppercase" checked class="toggle"/>
-            </div>
-            <div class="setting">
-                <label>Include Lowercase Letters</label>
-                <input type="checkbox" id="lowercase" checked class="toggle"/>
-            </div>
-            <div class="setting">
-                <label>Include Numbers</label>
-                <input type="checkbox" id="numbers" checked class="toggle"/>
-            </div>
-            <div class="setting">
-                <label>Include Symbols</label>
-                <input type="checkbox" id="symbols" checked class="toggle"/>
-            </div>
-        </div>
-        <button class="btn btn-large" id="generate">
-            Generate Password
+    <div id="message">
+        <h1 class="h1"><strong>Upgrade To Pro! </strong>Enjoy More Features And Resources With<a class="link" href="https://play.google.com/store/apps/details?id=com.divyanshsharma.strongpasswordgeneratepro">
+            <strong>Strong Password Genrate Pro</strong></a>
+            For Only $0.99!
+        </h1>
+
+        <button id="remove">X</button>
+    </div>
+
+    <div class="container">
+    <h1>Strong Password Generate</h1>
+    <div class="result-container">
+        <span id="result"></span>
+        <button class="btn" id="clipboard">
+           Copy</i>
         </button>
     </div>
+    <div class="settings">
+        <div class="setting">
+            <label>Password Length </label>
+            <input type="number" id="length" min='4' max='20' value='1' />
+        </div>
+        <div class="setting">
+            <label>Include Uppercase Letters</label>
+            <input type="checkbox" id="uppercase" checked class="toggle"/>
+        </div>
+        <div class="setting">
+            <label>Include Lowercase Letters</label>
+            <input type="checkbox" id="lowercase" checked class="toggle"/>
+        </div>
+        <div class="setting">
+            <label>Include Numbers</label>
+            <input type="checkbox" id="numbers" checked class="toggle"/>
+        </div>
+        <div class="setting">
+            <label>Include Symbols</label>
+            <input type="checkbox" id="symbols" checked class="toggle"/>
+        </div>
+    </div>
+    <button class="btn btn-large" id="generate">
+        Generate Password
+    </button>
+</div>
 </body>
 </html>
